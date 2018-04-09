@@ -36,5 +36,5 @@ public class Laptop {
         this.Harga = Harga;
     }
     
-    
+     
 }

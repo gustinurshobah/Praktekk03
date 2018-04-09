@@ -7,4 +7,17 @@ public class Notebook extends Laptop{
     void throttle(){
         System.out.println("TARAAAAAAAAAA");
     }
+
+    public String getJenisNotebook() {
+        return jenisNotebook;
+    }
+
+    public void setJenisNotebook(String jenisNotebook) {
+        this.jenisNotebook = jenisNotebook;
+    }
+    
+    
+    
 }
+
+

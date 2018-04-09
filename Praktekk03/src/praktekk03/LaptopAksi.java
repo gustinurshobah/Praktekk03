@@ -17,5 +17,15 @@ public class LaptopAksi {
         System.out.println(l.getWarna());
         System.out.println("Harganya \t: ");
         System.out.println(l.getHarga());
+        
+        
+        Notebook n = new Notebook();
+        n.setMerk("Axio");
+        n.setWarna("Hitam");
+        n.setHarga("2500000");
+        n.setJenisNotebook("Baru");
+        n.cetakInfo();
+        System.out.println("Jenis \t:"+n.getJenisNotebook());
+        n.throttle();
     }
 }

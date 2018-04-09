@@ -10,5 +10,12 @@ public class LaptopAksi {
         l.setHarga("4500000");
         
         l.cetakInfo();
+        
+        System.out.println("Merknya \t: ");
+        System.out.println(l.getMerk());
+        System.out.println("Warnanya \t: ");
+        System.out.println(l.getWarna());
+        System.out.println("Harganya \t: ");
+        System.out.println(l.getHarga());
     }
 }
